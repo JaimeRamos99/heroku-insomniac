@@ -15,4 +15,4 @@ setTimeout(function () {
     .on("error", (err) => {
       console.log("Error: " + err.message);
     });
-}, 60000);
+}, 60000 * 27);

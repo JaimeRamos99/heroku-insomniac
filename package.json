@@ -1,0 +1,29 @@
+{
+  "name": "heroku-insomniac",
+  "version": "1.0.0",
+  "description": "visit the given url, that host a heroku project using the free plan, every 29 minutes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeRamos99/heroku-insomniac.git"
+  },
+  "keywords": [
+    "heroku",
+    "node",
+    "express"
+  ],
+  "author": "Jaime Ramos Rossetes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaimeRamos99/heroku-insomniac/issues"
+  },
+  "homepage": "https://github.com/JaimeRamos99/heroku-insomniac#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "vercel": "^19.0.1"
+  }
+}

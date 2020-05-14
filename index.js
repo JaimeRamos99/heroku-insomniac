@@ -1,7 +1,7 @@
 const https = require("https");
 setTimeout(function () {
   https
-    .get(process.env.url, (resp) => {
+    .get('https://holuserver.herokuapp.com/probando', (resp) => {
       let data = "";
 
       resp.on("data", (chunk) => {

@@ -1,7 +1,7 @@
 const request = require("request");
 const CronJob = require("cron").CronJob;
 const job = new CronJob(
-  "0 */25 * * * *",
+  "0 */1 * * * *",
   function () {
     request(
       {

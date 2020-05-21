@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/JaimeRamos99/heroku-insomniac#readme",
   "dependencies": {
+    "cron": "^1.8.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.3",
-    "vercel": "^19.0.1"
+    "request": "^2.88.2"
   }
 }

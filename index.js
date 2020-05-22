@@ -5,7 +5,7 @@ const job = new CronJob(
   function () {
     request(
       {
-        url: "https://holuserver.herokuapp.com/probando",
+        url: "",
         method: "GET",
         timeout: 10000,
         followRedirect: true,
